@@ -1,0 +1,28 @@
+header{  
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    h1{
+        color:$color-terciario !important;
+        font-size: 70px;
+    }
+    nav{
+        ul{ list-style: none;
+            display: flex;
+            li{
+                a{
+                    text-decoration: none;
+                    color: white !important;
+                    transition: 1s;
+                    &:hover {
+                        background-color: $color-de-acento;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+}
+}

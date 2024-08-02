@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@600&family=Playfair+Display&family=Playfair+Display+SC&family=Poppins:wght@900&family=Roboto:wght@100&family=Titan+One&family=Work+Sans:wght@700&display=swap');
+/*----RESET----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"DM Serif Display", serif;
+    }
+body {
+        font-family:"DM Serif Display", serif;
+        ;
+        }
+
+//! HEADER
+    .menu{
+        background-color: #753f21 !important;
+    }
+    .boton{
+        border: 1px solid #fff3ea;
+        border-radius: 5px;
+        color: #fff3ea;
+        transition: 5s;
+        a {
+            &hover{background-color: #db8d62;
+        }
+        }
+    }
+    .grid-gallery{
+        width: 100%;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 350px;
+        gap: 15px;
+    }
+    
+    .grid-gallery div img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .img-gallery {
+        grid-column: span 2;
+    }
+    
+
+    //!VARIABLES
+    $color-principal: #753f21;
+    $color-secundario: #a35a32;
+    $color-terciario:#fff3ea;
+    $color-de-acento:#db8d62
+
+    //! MAPAS
+
+
