@@ -14,6 +14,13 @@ font-family:"DM Serif Display", serif;
 }
 
 /*!-------HEADER-------*/
+header{
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
 .h1{
     color: #fff3ea !important;
     font-size: 70px;
@@ -23,24 +30,31 @@ font-family:"DM Serif Display", serif;
     background-color: #753f21 !important;
 }
 
-.home{
-    font-size: 20px;
-    color: #fff3ea;
-}
-
     header nav img{
         width: 80px;
         height: 80px;
     }
 
-header nav ul li a:hover {
-    background-color: #fff3ea;
-}
+    header nav ul{
+        list-style: none;
+        display: flex;
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        color: white !important;
+    }
+
+    header nav ul li a:hover {
+        background-color: #db8d62;
+        border-radius: 8px;
+    }
 
 .boton{
     border: 1px solid #fff3ea;
     border-radius: 5px;
     color: #fff3ea;
+    transition: 1s;
 }
 
 .boton a:hover{
@@ -59,7 +73,7 @@ header nav ul li a:hover {
     height: 600px;
     color:white ;
     text-align: center;
-    background-image: url(../img/portada.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.121),rgba(0, 0, 0, 0.279)),url(../img/portada.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,6 +100,7 @@ header nav ul li a:hover {
     text-decoration: none;
     color: white;
     padding: 10px;
+    transition: 0.5s;
 } 
 
 .hero a:hover {
@@ -120,6 +135,13 @@ header nav ul li a:hover {
     grid-template-columns: auto;
 }
 
+.categorias .categorias-contenedor div:hover {
+    transform: scale(1.5s);
+    box-shadow: 1px 10px 42px 7px rgba(0,0, 0, 0.75);
+    -webkit-box-shadow:1px 10px 42px 7px  rgba(0,0, 0, 0.75);
+    -moz-box-shadow:1px 10px 42px 7px  rgba(0,0, 0, 0.75);
+}
+
 .categorias div img {
     width: 298px;
     height: 250px;
@@ -140,6 +162,7 @@ header nav ul li a:hover {
     font-size: 20px;
     padding: 6px;    
     margin: 100px;
+    transition: 1s;
 }
 
 .categorias div a:hover{
@@ -172,6 +195,9 @@ header nav ul li a:hover {
     height: 400px;
     text-align: center;
     margin-bottom: 20px;
+    box-sizing: 1px 10px 20px 7px #753f21;
+    -webkit-box-shadow:1px 10px 20px 7px #753f21;
+    -moz-box-shadow:1px 10px 20px 7px  #753f21;
 }
 
 .nosotros div h3 {
