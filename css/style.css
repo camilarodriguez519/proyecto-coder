@@ -1,4 +1,13 @@
+/*!---RESET----*/
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{  
+    background-color: #fff3ea;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -6,8 +15,12 @@ header{
     align-items: center;
     z-index: 1;
 }
-    h1{
+    header h1{
         color: #a35a32 !important;
         font-size: 70px;
         font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header nav ul{  
+        
     }
