@@ -25,25 +25,22 @@ body {
         }
         }
     }
-    .grid-gallery{
+    grid-gallery{
         width: 100%;
         margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 350px;
         gap: 15px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
     }
-    
-    .grid-gallery div img{
-        width: 100%;
-        height: 100%;
-        object-fit:cover;
+            img-gallery {
+                grid-column: span 2;
     }
-    
-    .img-gallery {
-        grid-column: span 2;
-    }
-    
+}
 
     //!VARIABLES
     $color-principal: #753f21;
