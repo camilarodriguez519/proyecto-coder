@@ -36,3 +36,42 @@ header{
         background-color: #db8d62;
         border-radius: 8px
     }
+
+    .hero{
+        width: 100%;
+        height: 600px;
+        color:white ;
+        text-align: center;
+        background-image: url(../img/portada.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h2{
+        font-size: 80px;
+        display: inline-block;
+        padding: 20px;
+    }
+
+    .hero p {
+    font-size: 25px;
+    margin-bottom: 50px ;
+    margin-top: 30px;
+    }
+
+    .hero a{
+        background-color: #753f21;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+    }
+
+    .hero a :hover{
+        background-color: #db8d62;
+    }
