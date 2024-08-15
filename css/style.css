@@ -32,7 +32,7 @@ header{
                     transition: 1s;
     }
 
-    header :hover{
+    header nav :hover{
         background-color: #db8d62;
         border-radius: 8px
     }
