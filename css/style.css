@@ -32,7 +32,7 @@ header{
                     transition: 1s;
     }
 
-    header nav ul li a :hover{
+    header :hover{
         background-color: #db8d62;
         border-radius: 8px
     }
@@ -72,6 +72,6 @@ header{
                 padding: 10px;
     }
 
-    .hero a :hover{
+    .hero :hover{
         background-color: #db8d62;
     }
