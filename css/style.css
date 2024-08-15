@@ -22,5 +22,17 @@ header{
     }
 
     header nav ul{  
-        
+        list-style: none;
+            display: flex;
+    }
+
+    header nav ul li a{ 
+        text-decoration: none;
+                    color: white !important;
+                    transition: 1s;
+    }
+
+    header nav ul li a :hover{
+        background-color: #db8d62;
+        border-radius: 8px
     }
