@@ -1,5 +1,4 @@
 /*!---RESET----*/
-
 *{  
     margin: 0;
     padding: 0;
@@ -21,16 +20,11 @@ header{
     .h1{
         color: #fff3ea !important;
         font-size: 70px;
+        width: 400px;
     }
     .menu{
         background-color: #753f21 !important;
-        border: 1px solid #fff3ea;
-        border-radius: 5px;
-        transition: 1s;
     }   
-    .menu:hover{
-    background-color: #db8d62;
-    }
     .boton{
         border: 1px solid #fff3ea;
         border-radius: 5px;
@@ -53,9 +47,9 @@ header{
         transition: 1s;
     }
 
-    header nav ul a :hover{
+    header ul li :hover{
         background-color: #db8d62;
-        border-radius: 8px
+        border-radius: 7px
     }
     .hero{
         width: 100%;
@@ -87,15 +81,35 @@ header{
 
     .hero a{
         background-color: #753f21;
-                text-decoration: none;
-                color: white;
-                padding: 10px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
     }
 
     .hero a:hover{
         background-color: #db8d62;
         border-radius: 8px;
     }
+
+    .nombre{
+        color: #753f21;
+        font-size: 20px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .email{
+        color: #753f21;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contrasena{
+        color: #753f21;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
 
     .categorias h2 {
         font-size: large;
@@ -136,9 +150,23 @@ header{
         font-size: 30px;
         color: #a35a32;
         text-align: center;
+    
 }
-.nosotros{
-    h2{
+.categorias div a{
+    text-decoration: none;
+    color: #fff3ea;
+    background-color: #753f21;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+    }
+
+    .categorias div a:hover{
+        background-color: #db8d62;
+    }
+
+
+.nosotros h2{
     font-size: 48px;
     text-align: center;
     padding: 9px;
@@ -153,28 +181,23 @@ header{
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-    flex-direction: row;    
 }
 .nosotros .nosotros-contenedor div{
-    border: 1px solid #753f21;
-    width: 300px;
+    border:1px solid #753f21;
     height: 400px;
+    width: 350px;
     text-align: center;
-    margin-bottom: 20px;
-    width: 300px;
 }
 .nosotros div h3 {
-    margin: 20px;
+    margin: 15px;
     font-size: 25px;
     color: black;
 }
 .nosotros div img{
-    width: 280px;
-    height: 200px;
-    margin-top: 10px;
+    width: 350px;
+    height: 250px;
 }
 
-}
 .testimonios h2{
     font-size: large;
     font-size: 40px;
@@ -294,4 +317,5 @@ footer img {
     }
     header nav ul li a {
         font-size: 15px;
+    }
 }
