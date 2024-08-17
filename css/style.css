@@ -13,16 +13,6 @@ body {
         font-family:"DM Serif Display", serif;
     }
 
-    .container-contact{
-    font-family:"DM Serif Display", serif;
-    color: #753f21;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 header{  
     background-color: #fff3ea;
     padding: 5px;
@@ -107,46 +97,10 @@ header{
         border-radius: 8px;
     }
 
-    .nombre{
+    .form{
         color: #753f21;
         font-size: 20px;
         border-radius: 8px;
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .email{
-        color: #753f21;
-        font-size: 20px;
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .contrasena{
-        color: #753f21;
-        font-size: 20px;
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .input-box{
-        color: #753f21;
-        font-size: 20px;
         margin-bottom: 10px;
         display: flex;
         justify-content: left;
